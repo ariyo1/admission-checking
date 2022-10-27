@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+      <link rel ="stylesheet" type = "text/javascript" href = "js/main.js">
+     <link rel = "stylesheet" type = "text/css" href = "css/main.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+
+<body>
+
+        <h1>  ADMISSION CHECKER </h1>
+
+        <form>
+            <section>
+
+             <!-- <h3> FirstName : </h3>
+                    <input type = "text" name = "fn" id = "" placeholder="enter your first name">
+                <h3> LastName :</h3>
+                    <input type = "text" name = "ln" id = "" placeholder="enter your last name">
+                <h3> Email :</h3>
+                     <input type = "text" name = "em" id = "" placeholder="enter your email">
+                <h3> Phone Number :</h3>
+                     <input type = "text" name = "ph" id = "" placeholder="enter your phone number">
+                <h3> O leve result:</h3>
+                   <select name = "subject" id = "">
+                          <option value = "English">Englsh</option>
+                          <option value = "English">Mathematics</option>
+
+                   </select><br><br><br>
+                   <select name = "subject" id = "">
+                       <option value = "Mathematics">Mathematics</option>
+                       <option value = "Mathematics">Mathematics</option>
+
+                 </select><br><br><br>
+                 <select name = "subject" id = "">
+                      <option value = "Physics">Physics</option>
+                      <option value = "">Mathematics</option><br>
+
+                </select><br><br><br>
+                <select name = "subject" id = "">
+                  <option value = "chemistry">Chemistry</option>
+                  <option value = "English">Biology</option><br>
+
+               </select>
+               <h3> No of Sitting:</h3>
+                   <input type = "number" value = "" id = "">
+                <h3> PUTME SCORE : </h3>
+                <input type = "text" value = "20" id = ""><br><br>
+                <input type = "submit" value = "submit" onclick = "mycal()">
+
+
+
+            </section>-->
+
+         
+          <section>
+
+              
+            <div class="col-md-6">
+              <form>
+                  <div class="mb-3">
+                      <label for="Fullname" class="form-label">Full Name</label>
+                      <input type="text" class="form-control" id="fn" placeholder="your fullname here">
+                  </div>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="em" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                      <label for="phonenumber" class="form-label">Phone Number</label>
+                      <input type="text" class="form-control" id="ph" placeholder="08012345678">
+                  </div>
+                  <div class="mb-3">
+                    <label for="o level" class="form-label">O level result</label>
+                    <select name = "subject" id = "eng">
+                        <option value = "English">Englsish</option>
+                        <option value = "">Mathematics</option>
+                    </select>
+                    <select name = "grade" id = "eng">
+                      <option value = "A1">A1</option>
+                      <option value = "">B2</option>
+                      <option value = "">B3</option>
+                      <option value = "">C4</option>
+                      <option value = "">C5</option>
+                      <option value = "">C6</option>
+                      <option value = "">D7</option>
+                      <option value = "">E8</option>
+                      <option value = "">F9</option>
+                  </select>
+                  <div class="mb-3">
+                    <label for="o level" class="form-label">O level result</label>
+                    <select name = "subject" id = "chem">
+                        <option value = "English">Chemistry</option>
+                        <option value = "">Mathematics</option>
+                    </select>
+                    <select name = "grade" id = "chem">
+                      <option value = "A1">A1</option>
+                      <option value = "">B2</option>
+                      <option value = "">B3</option>
+                      <option value = "">C4</option>
+                      <option value = "">C5</option>
+                      <option value = "">C6</option>
+                      <option value = "">D7</option>
+                      <option value = "">E8</option>
+                      <option value = "">F9</option>
+                  </select>
+                  <div class="mb-3">
+                    <label for="o level" class="form-label">O level result</label>
+                    <select name = "subject" id = "phy">
+                        <option value = "English">Physics</option>
+                        <option value = "">Mathematics</option>
+                    </select>
+                    <select name = "grade" id = "phy">
+                      <option value = "A1">A1</option>
+                      <option value = "">B2</option>
+                      <option value = "">B3</option>
+                      <option value = "">C4</option>
+                      <option value = "">C5</option>
+                      <option value = "">C6</option>
+                      <option value = "">D7</option>
+                      <option value = "">E8</option>
+                      <option value = "">F9</option>
+                  </select>
+                  <div class="mb-3">
+                    <label for="o level" class="form-label">O level result</label>
+                    <select name = "subject" id = "bio">
+                        <option value = "Biology">Biology</option>
+                        <option value = "">Mathematics</option>
+                    </select>
+                    <select name = "grade" id = "bio">
+                      <option value = "A1">A1</option>
+                      <option value = "">B2</option>
+                      <option value = "">B3</option>
+                      <option value = "">C4</option>
+                      <option value = "">C5</option>
+                      <option value = "">C6</option>
+                      <option value = "">D7</option>
+                      <option value = "">E8</option>
+                      <option value = "">F9</option>
+                  </select>
+                  <div class="mb-3">
+                    <label for="o level" class="form-label">O level result</label>
+                    <select name = "subject" id = "fma">
+                        <option value = "">Further Math</option>
+                        <option value = "">Mathematics</option>
+                    </select>
+                    <select name = "grade" id = "fma">
+                      <option value = "A1">A1</option>
+                      <option value = "">B2</option>
+                      <option value = "">B3</option>
+                      <option value = "">C4</option>
+                      <option value = "">C5</option>
+                      <option value = "">C6</option>
+                      <option value = "">D7</option>
+                      <option value = "">E8</option>
+                      <option value = "">F9</option>
+                  </select>
+                    </div>
+                    <div class="mb-3">
+                      <label for="Sitting" class="form-label">Number of sittings</label>
+                      <input type="number" class="form-control" id="num">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Jamb SCORE</label>
+                    <input type="text" class="form-control" id="jutme">
+                </div>
+                  <div class="mb-3">
+                      <label for="message" class="form-label">PUTME SCORE</label>
+                      <input type="text" class="form-control" id="putme">
+                  </div>
+
+                  <div class="col-auto" style="text-align:right;">
+                      <button type="submit" id = "btn" class="btn btn-success mb-3" onclick="Mycal()">Submit</button>
+                  </div>
+              </form>
+          </div>
+
+
+
+
+            
+
+
+
+
+
+          </section>
+
+
+
+
+
+
+
+        </form>
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<h1> MY Calculation </h1>
+
+<h3> First Num:</h3>
+<input type = 'number' value = ''  id = 'num1'><br>
+<h3> Second Num:</h3>
+<input type = 'number' value = ''  id = 'num2'><br>
+<input type = 'submit' value = 'addition' onclick = 'mycal()'<br><br>
+
+<h1> Result: </h1><br>
+<span id = 'result'></span>
+
+
+      
+
+
+<script>
+
+  function mycal(){
+   
+   let a = document.getElementById('num1');
+   let b = document.getElementById('num2');
+   let c = a.valueAsNumber;
+   let d = b.valueAsNumber;
+   document.getElementById('result').innerHTML = c + d;
+
+
+
+  }
+ 
+
+
+
+
+
+
+</script>-->
+<!--<script>
+let num = [1,2,3,4,5,6,7,8],
+max = Math.max.apply(Math , num);
+document.write(max);
+
+</script>-->
+
+<!--<script>
+
+   function greet(){
+     document.write('Hello')
+
+  };
+
+    greet();
+
+
+
+
+</script>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
