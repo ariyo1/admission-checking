@@ -92,11 +92,11 @@
         //   window.alert('you are requred to submit only one sitting')
         
         }
-        if (this.isAllCredits == false) {
+        else if (this.isAllCredits == false) {
            document.write('you are requred to have at least c6 in all subjects')
           
         }
-        if (this.totalscore >= 80 && this.totalscore <= 100) {
+        else if (this.totalscore >= 80 && this.totalscore <= 100) {
            document.write('congratulations, you have gained admission by merit')
           
         }
@@ -104,7 +104,7 @@
            document.write('congratulations, you have gained admission by consensure')
           
         }
-        if (this.totalscore >= 65 && this.totalscore <= 74) {
+        else if (this.totalscore >= 65 && this.totalscore <= 74) {
           document.write('congratulations, you have gain admission by VC list')
         } else {
           document.write('please input your details')
